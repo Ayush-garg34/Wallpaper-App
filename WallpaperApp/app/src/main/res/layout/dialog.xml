@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:onClick="home"
+        android:clickable="true"
+        android:id="@+id/lockScreen"
+        android:text="Home Screen"
+        android:padding="15sp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true" />
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="#000000"-->
+        <!--/>-->
+
+    <TextView
+        android:onClick="lock"
+        android:clickable="true"
+        android:text="Lock Screen"
+        android:textColor="#000000"
+        android:id="@+id/homeScreen"
+        android:padding="15sp"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true" />
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="#000000"-->
+        <!--/>-->
+    <TextView
+        android:onClick="both"
+        android:clickable="true"
+        android:text="Both"
+        android:textColor="#000000"
+        android:padding="15sp"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true" />
+
+
+</LinearLayout>
